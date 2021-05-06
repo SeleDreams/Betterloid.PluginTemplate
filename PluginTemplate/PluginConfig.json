@@ -1,0 +1,10 @@
+{
+  "PluginActive": "true",
+  "PluginAuthor": "SeleDreams",
+  "PluginType": "Editor",
+  "PluginAssembly": "PluginTemplate.dll",
+  "PluginName": "Template",
+  "PluginVersion": "1.0.0",
+  "PluginNamespace": "PluginTemplate",
+  "PluginClass": "PluginTemplate"
+}
