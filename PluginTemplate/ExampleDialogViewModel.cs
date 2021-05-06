@@ -41,7 +41,7 @@ namespace PluginTemplate
 
                     // Now create the VOCALOID part and set its effect block
                     WIVSMMidiPart part = track.InsertPart(VSMAbsTick.Zero, new VSMRelTick(7680), "Created by ExamplePlugin");
-                    var partEffectBlock = App.EffectEngine.SetEffectBlock(part);
+                    App.EffectEngine.SetEffectBlock(part);
 
                     // We need to assign a voicebank to the VOCALOID part as well as a style, we'll use the default voicebank and the default style
                     part.SetVoiceBankID(DefaultVoicebank.CompID);
@@ -50,7 +50,7 @@ namespace PluginTemplate
                     part.StyleName = voiceDefaultStyle.Name;
 
                     // Now let's insert the notes !
-                    var note1 = part.InsertNote(new VSMRelTick(0), new VSMNoteEvent(1000, 60, 100), part.GetDefaultNoteExpression(), "he", "h e", true);
+                    part.InsertNote(new VSMRelTick(0), new VSMNoteEvent(1000, 60, 100), part.GetDefaultNoteExpression(), "he", "h e", true);
                     part.InsertNote(new VSMRelTick(1001), new VSMNoteEvent(1000, 62, 100), part.GetDefaultNoteExpression(), "ro", "4 o", true);
                 }
                 catch (Exception ex) // Don't forget to catch errors if you don't want the whole software to crash in case of an error
