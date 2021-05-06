@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="Betterloid">
       <HintPath>VOCALOID5\Editor\Betterloid.exe</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -48,6 +49,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="VOCALOID5">
       <HintPath>VOCALOID5\Editor\VOCALOID5.exe</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>
