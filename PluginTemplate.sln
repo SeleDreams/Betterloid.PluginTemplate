@@ -8,9 +8,9 @@ EndProject
 Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Betterloid", "PluginTemplate\VOCALOID5\Editor\Betterloid.exe", "{74707B87-52FE-40F1-BF85-97496D03DEF8}"
 	ProjectSection(DebuggerProjectSystem) = preProject
 		PortSupplier = 00000000-0000-0000-0000-000000000000
-		Executable = C:\Users\SeleDreams\source\repos\PluginTemplate\PluginTemplate\VOCALOID5\Editor\Betterloid.exe
+		Executable = "VOCALOID5\Editor\Betterloid.exe"
 		RemoteMachine = DESKTOP-M8TKLJ2
-		StartingDirectory = C:\Users\SeleDreams\source\repos\PluginTemplate\PluginTemplate\VOCALOID5\Editor
+		StartingDirectory = "VOCALOID5\Editor"
 		Environment = Default
 		LaunchingEngine = 00000000-0000-0000-0000-000000000000
 		UseLegacyDebugEngines = No
